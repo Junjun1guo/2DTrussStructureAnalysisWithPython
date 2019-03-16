@@ -4,7 +4,7 @@ force analysis for 2d truss structure based on the object-oriented programming o
 
 
 
-### [ViewTruss2D](#viewtruss2d)
+[ViewTruss2D](#viewtruss2d)
 
 ![](https://github.com/junjun1guo/2DTrussStructureAnalysisWithPython/raw/Truss2DModelAndView/view2.png)  
 
