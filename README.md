@@ -2,7 +2,7 @@
 ==================================
 force analysis for 2d truss structure based on the object-oriented programming of Python language
 
-### [ModelTruss2D.py](#modeltruss2dpy)
+
 
 ### [ViewTruss2D.py](#viewtruss2dpy)
 
