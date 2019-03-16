@@ -2,7 +2,9 @@
 ==================================
 force analysis for 2d truss structure based on the object-oriented programming of Python language
 
-[ModelTruss2D.py](#modeltruss2dpy)
+### [ModelTruss2D.py](#modeltruss2dpy)
+#### 　[class BaseFEM](#class-basefem)
+
 
 ![](https://github.com/junjun1guo/2DTrussStructureAnalysisWithPython/raw/Truss2DModelAndView/view2.png)  
 
@@ -27,6 +29,9 @@ from sympy import *
 from compiler.ast import flatten
 from Transform import Transform2D
 #####################################################
+```
+### class BaseFEM
+```python
 class BaseFEM(object):
 	
 	#Process raw data
