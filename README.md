@@ -10,6 +10,7 @@ ModelTruss2D.py
 ---------------
 ```python
 #-*-coding: UTF-8-*-
+
 ################################################################################
 #  Author: Junjun Guo
 #  E-mail: guojj@tongji.edu.cn/guojj_ce@163.com
@@ -353,7 +354,7 @@ if __name__=="__main__":
 	constraints=np.loadtxt("2DTrussConstraints.txt")
 	instance=Truss2D(nodes,elements,loads,constraints)
 	resultDB = shelve.open('2DTrussDB.db', flag='n')
-
+```
 ViewTruss2D.py
 ---------------
 ```python
