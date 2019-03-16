@@ -30,7 +30,8 @@ from compiler.ast import flatten
 from Transform import Transform2D
 #####################################################
 ```
-### class BaseFEM
+class BaseFEM
+----------------
 ```python
 class BaseFEM(object):
 	
