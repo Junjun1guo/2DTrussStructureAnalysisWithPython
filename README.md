@@ -4,7 +4,7 @@ force analysis for 2d truss structure based on the object-oriented programming o
 
 
 
-### [ViewTruss2D.py](#viewtruss2dpy)
+### [ViewTruss2D](#viewtruss2d)
 
 ![](https://github.com/junjun1guo/2DTrussStructureAnalysisWithPython/raw/Truss2DModelAndView/view2.png)  
 
@@ -357,7 +357,7 @@ if __name__=="__main__":
 	instance=Truss2D(nodes,elements,loads,constraints)
 	resultDB = shelve.open('2DTrussDB.db', flag='n')
 ```
-ViewTruss2D.py
+ViewTruss2D
 ---------------
 ```python
 #-*-coding: UTF-8-*-
