@@ -5,6 +5,7 @@ force analysis for 2d truss structure based on the object-oriented programming o
 
 * [ModelTruss2D.py](#modeltruss2dpy)
 	* [class BaseFEM](#class-basefem)
+	* [class Truss2D](#class-truss2d)
 * [ViewTruss2D.py](#viewtruss2dpy)
 
 ![](https://github.com/junjun1guo/2DTrussStructureAnalysisWithPython/raw/Truss2DModelAndView/view2.png)  
@@ -56,7 +57,9 @@ class BaseFEM(object):
 		return
 #################################################################################		
 #################################################################################		
-
+```
+### class Truss2D
+```python
 class Truss2D(BaseFEM):
 
 	def __init__ (self,points,elements,loads,constraints):
