@@ -7,6 +7,10 @@ force analysis for 2d truss structure based on the object-oriented programming o
 	* [class BaseFEM](#class-basefem)
 	* [class Truss2D](#class-truss2d)
 * [ViewTruss2D.py](#viewtruss2dpy)
+	* [class MyCanvasBase](#class-mycanvasbase)
+	* [class CubeCanvas](#class-cubecanvas)
+	* [class baseViewFEM](#class-baseviewfem)
+	* [class FEM2DTrussView](#class-fem2dtrussview)
 
 ![](https://github.com/junjun1guo/2DTrussStructureAnalysisWithPython/raw/Truss2DModelAndView/view2.png)  
 
@@ -385,6 +389,9 @@ from modelTruss2D import BaseFEM,Truss2D
 
 ################################################################################
 ################################################################################
+```
+### class MyCanvasBase
+```python
 class MyCanvasBase(glcanvas.GLCanvas):
     def __init__(self, parent):
         glcanvas.GLCanvas.__init__(self, parent, -1)
@@ -443,6 +450,9 @@ class MyCanvasBase(glcanvas.GLCanvas):
 #            self.Refresh(False)
 ################################################################################
 ################################################################################
+```
+### class CubeCanvas
+```python
 class CubeCanvas(MyCanvasBase):
     def InitGL(self):
         # set viewing projection
@@ -661,6 +671,9 @@ class CubeCanvas(MyCanvasBase):
 		
 ################################################################################
 ################################################################################
+```
+### class baseViewFEM
+```python
 class baseViewFEM(wx.Frame):
 	def __init__ (self):
 		self.screenSize=wx.DisplaySize()
@@ -750,6 +763,9 @@ class baseViewFEM(wx.Frame):
 		self.layoutProcessPanel.Add( self.postProcess, 1, wx.EXPAND, 5 )
 ################################################################################
 ################################################################################
+```
+### class FEM2DTrussView
+```python
 class FEM2DTrussView(baseViewFEM):
 	def __init__ (self):
 		super(FEM2DTrussView,self).__init__()
