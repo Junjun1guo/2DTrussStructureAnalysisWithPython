@@ -12,7 +12,7 @@ force analysis for 2d truss structure based on the object-oriented programming o
 	* [class baseViewFEM](#class-baseviewfem)
 	* [class FEM2DTrussView](#class-fem2dtrussview)
 
-![](https://github.com/Junjun1guo/2DTrussStructureAnalysisWithPython/raw/Truss2DModelAndView/view2.png)  
+![ ](https://github.com/Junjun1guo/2DTrussStructureAnalysisWithPython/raw/Truss2DModelAndView/view2.png)  
 
 ModelTruss2D.py
 ---------------
