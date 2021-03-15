@@ -124,6 +124,7 @@ class CubeCanvas(MyCanvasBase):
     def textDraw (self,color,position,textString):
 		glColor(color[0], color[1], color[2])
 		glRasterPos2f(position[0],position[1])
+		glutInit()
 		for eachChar in textString:
 			glutBitmapCharacter(GLUT_BITMAP_9_BY_15,ord(eachChar))
 #################################################
